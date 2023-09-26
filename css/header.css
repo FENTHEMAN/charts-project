@@ -1,0 +1,107 @@
+.header {
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-div {
+    display: flex;
+    align-items: center;
+}
+.link-logo {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vh;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 0.6vw;
+    border: 1px solid rgba(41, 44, 49, 0.35);
+    background: linear-gradient(121deg, rgba(255, 255, 255, 0.20) 18.81%, rgba(255, 255, 255, 0.00) 81.19%);
+}
+.input-serch {
+    color: white;
+    font-size: 1vw;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+.link-svg {
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theme-container {
+    display: flex;
+    height: 3.86vh;
+    background: linear-gradient(121deg, rgba(255, 255, 255, 0.20) 18.81%, rgba(255, 255, 255, 0.00) 81.19%);
+    border-radius: 0.6vw;
+    border: 1px solid rgba(41, 44, 49, 0.35);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin-left: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+.theme-control {
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+    width: 1.5vw;
+    height: 1.15vw;
+}
+.header-div1 {
+    margin-right: 2.5vw;
+    gap: 0.8vw;
+}
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8vw;
+}
+.premium-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5vh;
+    width: 5.5vw;
+    background: linear-gradient(121deg, rgba(255, 255, 255, 0.20) 18.81%, rgba(255, 255, 255, 0.00) 81.19%);
+    border-radius: 0.6vw;
+    border: 1px solid rgba(41, 44, 49, 0.35);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+.premium-p {
+    color: rgba(255, 255, 255, 0.638);
+    font-size: 0.7vw;
+}
+.user-arr-svg {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    width: 0.4vw;
+    transform: rotate(270deg);
+}
+.user-name {
+    font-size: 0.7vw;
+}
+.input-container svg{
+    width: 1vw;
+    height: 1vw;
+}
+.svg-header {
+    width: 1.85vw;
+    height: 1.85vw;
+}

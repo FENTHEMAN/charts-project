@@ -1,0 +1,116 @@
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 9vh;
+    left: 0;
+    width: 14%;
+    height: 89vh;
+    border: 2px solid rgb(255, 255, 255, 0.15);
+    border-radius: 0 2vh 2vh 0;
+    background: #141417;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1vw;
+    gap: 1vw;
+    
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+}
+
+.nav3 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1vw;
+    gap: 1vw; 
+}
+.nav2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    padding-left: 2vw;
+}
+.navv {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1vw;
+    gap: 1vw;
+    padding: 1vw;
+    padding-left: 2vw;
+}
+.menuGL {
+    color:  #32D2A1;
+}
+.img-ava {
+    width: 3.5vw;
+}
+.manager-p {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.3vw;
+}
+.manager-p {
+    font-size: 0.75vw;
+    color: rgba(255, 255, 255, 0.614);
+}
+.manager-div {
+    margin-left: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    padding: 1vw;
+    width: 10.4vw;
+    height: 22vh;
+    border-radius: 2vh;
+    border: 1px solid #444444;
+    background: linear-gradient(126deg, rgba(255, 255, 255, 0.337) -267.85%, rgba(255, 255, 255, 0) 138.29%);
+}
+.manager-info-name-div {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding-top: 0.5vw;
+}
+.manager-info-name-div p {
+    font-size: 0.8vw;
+}
+.manager-socials-div {
+    padding-top: 0.5vw;
+}
+.social {
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+    margin-bottom: 1vw;
+}
+.s-p {
+    font-size: 0.692vw;
+    color: rgba(255, 255, 255, 0.716);
+}
+.manager-info-name-p-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+}
+
+.menu svg, .nav3 svg, .social svg, .navv svg {
+    width: 1vw;
+    height: 1vw;
+}
+.manager-info-name-div img {
+    width: 2.3vw;
+}
+.manager-div-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+}

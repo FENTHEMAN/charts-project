@@ -1,0 +1,55 @@
+.date-div {
+    flex-direction: column;
+    padding: 2.5vw;
+}
+.calendar-days {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.8vw;
+}
+.calendar-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.8vw;
+}
+.calendar-day-p {
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.calendar-back {
+    background-color: #262629;
+    color: #737375;
+    cursor: default;
+    transition: 0.3s;
+}
+.calendar-back:hover {
+    color: white;
+}
+.day-active {
+    background-color: #3b3b3d;
+    color: #8d8d8f
+}
+.free-day {
+    width: 2vw;
+    height: 2vw;
+}
+.calendar-head {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2vh;
+    gap: 1vw;
+}
+input {
+    font-size: 0.7vw;
+    background: none;
+    border: none;
+    color: white;
+}
